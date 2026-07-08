@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grow Expert · Aktivkohlefilter Ø100mm · Bedienungsanleitung</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+:root{--ink:#141414;--sec:#6b6b6b;--line:#d8d8d8;--line2:#ededed;--box:#f6f5f2;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#e9e7e2;font-family:'Archivo',sans-serif;color:var(--ink);padding:20px;}
+.mono{font-family:'Space Mono',monospace;}
+.page{width:148mm;height:210mm;background:#fff;margin:0 auto 16px;position:relative;padding:12mm 12mm 10mm;overflow:hidden;box-shadow:0 3px 16px rgba(0,0,0,.14);}
+.ic{fill:none;stroke:var(--ink);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;width:1em;height:1em;display:inline-block;vertical-align:middle;}
+.brandrow{display:flex;justify-content:space-between;align-items:flex-start;}
+.brand{font-family:'Space Mono',monospace;font-weight:700;letter-spacing:.42em;font-size:9.5px;}
+.doclbl{font-family:'Space Mono',monospace;letter-spacing:.24em;font-size:8px;color:var(--sec);text-align:right;line-height:1.7;}
+.h1{font-family:'Archivo';font-weight:900;font-size:25px;letter-spacing:-.5px;margin-top:6px;line-height:1;}
+.sub{font-family:'Space Mono',monospace;font-size:8.5px;color:var(--sec);letter-spacing:.05em;margin-top:5px;}
+.rule{height:1px;background:var(--ink);margin:8px 0;}
+.ruleL{height:1px;background:var(--line);}
+.sec{display:flex;align-items:center;gap:6px;margin:10px 0 6px;}
+.sec .dm{width:5px;height:5px;background:var(--ink);transform:rotate(45deg);flex:none;}
+.sec .t{font-family:'Space Mono',monospace;font-weight:700;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;}
+.sec .ln{flex:1;height:1px;background:var(--line);}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:3px 16px;}
+.li{display:flex;gap:6px;font-size:9.5px;line-height:1.32;margin:2.5px 0;align-items:flex-start;}
+.li .ic{font-size:12px;flex:none;margin-top:.5px;}
+.note{font-size:8.3px;color:var(--sec);line-height:1.4;margin-top:4px;}
+table.spec{width:100%;border-collapse:collapse;}
+table.spec td{padding:2.8px 0;font-family:'Space Mono',monospace;font-size:9px;border-bottom:1px solid var(--line2);vertical-align:baseline;}
+table.spec td.k{color:var(--sec);}
+table.spec td.v{text-align:right;font-weight:700;}
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:center;gap:2px;background:var(--box);border:1px solid var(--line);border-radius:5px;padding:9px 8px;}
+.fn{text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px;}
+.fn .ic{font-size:17px;}
+.fn .l{font-family:'Space Mono',monospace;font-size:7.5px;}
+.far{color:var(--ink);font-size:12px;}
+.safe{display:grid;grid-template-columns:1fr 1fr;gap:2px 14px;margin-top:1px;}
+.sf{display:flex;gap:5px;font-size:8.3px;line-height:1.28;}
+.sf .num{font-family:'Space Mono',monospace;font-weight:700;flex:none;}
+.sf .cau{font-weight:700;}
+
+/* guides */
+.guide{border:1px solid var(--line);border-radius:7px;padding:11px 13px 12px;margin-top:9px;background:#fff;}
+.gh{display:flex;align-items:baseline;gap:9px;}
+.gh .gt{font-family:'Archivo';font-weight:900;font-size:14.5px;letter-spacing:-.2px;}
+.gh .gtag{font-family:'Archivo',sans-serif;font-style:italic;font-weight:500;font-size:9.5px;color:var(--sec);letter-spacing:0;}
+.gintro{font-size:8.6px;color:#444;line-height:1.45;margin-top:3px;}
+.gsteps{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:start;gap:2px;margin-top:8px;}
+.gstep{text-align:center;display:flex;flex-direction:column;align-items:center;}
+.gill{width:100%;height:24mm;display:flex;align-items:center;justify-content:center;margin-bottom:5px;}
+.gill svg{max-width:100%;max-height:100%;width:auto;height:auto;fill:none;stroke:var(--ink);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;color:var(--ink);}
+.gill .mesh{stroke-width:.6;}
+.gill .thin{stroke-width:1.25;}
+.gill .dot{fill:var(--ink);stroke:none;}
+.gn{font-family:'Space Mono',monospace;font-weight:700;font-size:7.5px;color:var(--sec);letter-spacing:.1em;}
+.gl{font-family:'Archivo';font-weight:800;font-size:10.5px;margin-top:2px;}
+.gd{font-family:'Space Mono',monospace;font-size:7.6px;color:var(--sec);line-height:1.35;margin-top:3px;padding:0 3px;}
+.garr{align-self:center;font-size:15px;color:var(--ink);margin-top:11mm;}
+
+/* clean footer */
+.svc{position:absolute;left:12mm;right:12mm;bottom:16mm;}
+.svcgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:0 22px;align-items:start;}
+.fsec{font-family:'Space Mono',monospace;font-weight:700;font-size:8.3px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:5px;}
+.serv{font-size:8.3px;line-height:1.5;color:#3a3a3a;}
+.serv b{font-weight:800;}
+.crow{display:flex;align-items:center;gap:9px;margin-bottom:5px;}
+.cebadge svg{height:15px;width:auto;display:block;}
+.pill{font-family:'Space Mono',monospace;font-size:7.3px;font-weight:700;letter-spacing:.05em;border:1px solid var(--ink);border-radius:3px;padding:2.5px 7px;white-space:nowrap;}
+.cnote{font-family:'Space Mono',monospace;font-size:7.3px;color:var(--sec);line-height:1.5;}
+.irow{font-family:'Space Mono',monospace;font-size:7.1px;color:var(--sec);line-height:1.5;margin-top:5px;}
+
+.pfoot{position:absolute;left:12mm;right:12mm;bottom:9mm;}
+.fsec{font-family:'Space Mono',monospace;font-weight:700;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);}
+.serv{font-size:8.4px;line-height:1.5;color:#3a3a3a;margin-top:4px;}
+.serv b{font-weight:800;}
+.crow{display:flex;align-items:center;gap:11px;margin-top:9px;}
+.cebadge svg{height:15px;width:auto;display:block;}
+.pill{font-family:'Space Mono',monospace;font-size:7.4px;font-weight:700;letter-spacing:.05em;border:1px solid var(--ink);border-radius:3px;padding:2.5px 7px;white-space:nowrap;}
+.cnote{font-family:'Space Mono',monospace;font-size:7.4px;color:var(--sec);}
+.irow{font-family:'Space Mono',monospace;font-size:7.3px;color:var(--sec);margin-top:9px;letter-spacing:.01em;}
+.brow{display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:7.3px;color:var(--sec);letter-spacing:.08em;margin-top:8px;padding-top:6px;border-top:1px solid var(--line2);}
+.pgn{font-family:'Space Mono',monospace;font-size:7.5px;color:var(--sec);letter-spacing:.1em;position:absolute;right:12mm;bottom:9mm;}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4 4 10-10"/></symbol>
+<symbol id="i-filter" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="6" ry="2"/><path d="M6 6v12M18 6v12"/><path d="M6 18a6 2 0 0 0 12 0"/><path d="M9 8v9M12 8v9M15 8v9" stroke-dasharray="2 2"/></symbol>
+<symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+<symbol id="i-rope" viewBox="0 0 24 24"><path d="M8 3v6a4 4 0 0 0 8 0V3"/><path d="M12 13v5a2 2 0 0 0 4 0"/></symbol>
+<symbol id="i-hook" viewBox="0 0 24 24"><path d="M12 3v6"/><path d="M12 9a5 5 0 1 1-5 5"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13"/><path d="M13 6l6 6-6 6"/></symbol>
+<symbol id="i-wind" viewBox="0 0 24 24"><path d="M3 8h9.5a2.5 2.5 0 1 0-2.4-3.3"/><path d="M3 12h13.5a2.5 2.5 0 1 1-2.4 3.3"/><path d="M3 16h6.5a2.5 2.5 0 1 0-2.4 3.3"/></symbol>
+<symbol id="i-fan" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M12 10c0-4 1-7-1-7s-2 3-1 5M14 12c4 0 7 1 7-1s-3-2-5-1M12 14c0 4-1 7 1 7s2-3 1-5M10 12c-4 0-7-1-7 1s3 2 5 1"/></symbol>
+</defs></svg>
+
+<!-- ═══════════ SEITE 1 (DE) ═══════════ -->
+<div class="page">
+  <div class="brandrow"><div class="brand">GROW&nbsp;&nbsp;EXPERT</div><div class="doclbl">BEDIENUNGS-<br>ANLEITUNG<br>DE</div></div>
+  <div class="h1">AKTIVKOHLEFILTER Ø100mm</div>
+  <div class="sub">Professional Series · Nachfüllbar · umkehrbare Flansche</div>
+  <div class="rule"></div>
+
+  <div class="sec"><span class="dm"></span><span class="t">Lieferumfang</span><span class="ln"></span></div>
+  <div class="two">
+    <div class="li"><svg class="ic"><use href="#i-filter"/></svg><div><b>1× Aktivkohlefilter</b></div></div>
+    <div class="li"><svg class="ic"><use href="#i-bag"/></svg><div>1× Prefilter-Vlies (Baumwolle)</div></div>
+    <div class="li"><svg class="ic"><use href="#i-rope"/></svg><div>1× Aufhängeseil-Set mit Karabinern</div></div>
+  </div>
+  <div class="note">Nachfüllkohle (GE-CAR-4) und Trichter sind nicht enthalten — bitte separat bereithalten. Flexschläuche und Schlauchschellen nicht enthalten.</div>
+
+  <div class="two" style="margin-top:8px;grid-template-columns:1.05fr .95fr;gap:0 18px;align-items:start;">
+    <div>
+      <div class="sec"><span class="dm"></span><span class="t">Technische Daten</span><span class="ln"></span></div>
+      <table class="spec">
+        <tr><td class="k">Modell</td><td class="v">GE-CF-01</td></tr>
+        <tr><td class="k">Anschluss</td><td class="v">Ø100 mm · 4″</td></tr>
+        <tr><td class="k">Filtermaß</td><td class="v">Ø100 × 305 mm</td></tr>
+        <tr><td class="k">Aktivkohle</td><td class="v">≈ 1,3–1,4 kg</td></tr>
+        <tr><td class="k">Luftdurchsatz</td><td class="v">357 m³/h · 210 CFM</td></tr>
+        <tr><td class="k">Geruchsentfernung</td><td class="v">bis zu 98 %</td></tr>
+        <tr><td class="k">Kohle-Standzeit</td><td class="v">1–2 Grow Cycles</td></tr>
+        <tr><td class="k">Material</td><td class="v">Pulverb. Stahl</td></tr>
+        <tr><td class="k">Flansche</td><td class="v">Alu · umkehrbar</td></tr>
+        <tr><td class="k">Kompatibel</td><td class="v">GE-DUF-01</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="sec"><span class="dm"></span><span class="t">Vor dem Einbau</span><span class="ln"></span></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Prefilter-Vlies über den Filter ziehen — schützt die Kohle vor Staub.</div></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Mit Seil-Set und Haken sicher aufhängen oder auf den Rohrventilator setzen.</div></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Luftrichtung beachten (siehe unten).</div></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Nur trocken einsetzen — Kohle nicht nass werden lassen.</div></div>
+    </div>
+  </div>
+
+  <div class="sec"><span class="dm"></span><span class="t">So herum einbauen · Luftrichtung</span><span class="ln"></span></div>
+  <div class="flow">
+    <div class="fn"><svg class="ic"><use href="#i-wind"/></svg><div class="l">Raumluft</div></div>
+    <svg class="ic far"><use href="#i-arrow"/></svg>
+    <div class="fn"><svg class="ic"><use href="#i-filter"/></svg><div class="l">Kohlefilter</div></div>
+    <svg class="ic far"><use href="#i-arrow"/></svg>
+    <div class="fn"><svg class="ic"><use href="#i-fan"/></svg><div class="l">Ventilator</div></div>
+    <svg class="ic far"><use href="#i-arrow"/></svg>
+    <div class="fn"><svg class="ic"><use href="#i-wind"/></svg><div class="l">Abluft</div></div>
+  </div>
+  <div class="note">Die Luft wird durch den Aktivkohlefilter angesaugt und über den Rohrventilator nach außen geführt — Gerüche werden gebunden, das Zelt bleibt im Unterdruck.</div>
+
+  <div class="sec"><span class="dm"></span><span class="t">Pflege &amp; Sicherheit</span><span class="ln"></span></div>
+  <div class="safe">
+    <div class="sf"><span class="num">1.</span><div>Trocken halten und lagern. Kohle nicht waschen oder nass werden lassen.</div></div>
+    <div class="sf"><span class="num">2.</span><div><span class="cau">Nur für Abluft</span> von Growzelten/Innenräumen. Keine aggressiven Chemikalien filtern.</div></div>
+    <div class="sf"><span class="num">3.</span><div>Prefilter-Vlies regelmäßig prüfen und bei Verschmutzung tauschen.</div></div>
+    <div class="sf"><span class="num">4.</span><div>Sicher aufhängen — festen Sitz von Seil, Karabinern und Haken prüfen.</div></div>
+    <div class="sf"><span class="num">5.</span><div>Nicht fallen lassen; verformtes Gehäuse mindert die Leistung.</div></div>
+    <div class="sf"><span class="num">6.</span><div>Von Zündquellen und offener Flamme fernhalten. Kühl und trocken lagern.</div></div>
+  </div>
+  <div class="pgn">GROW EXPERT · GE-CF-01 · Seite 1 / 4</div>
+</div>
+
+<!-- ═══════════ SEITE 2 (DE) — GUIDES ═══════════ -->
+<div class="page">
+  <div class="brand">GROW&nbsp;&nbsp;EXPERT · AKTIVKOHLEFILTER Ø100mm</div>
+  <div class="ruleL" style="margin:7px 0 0;"></div>
+
+  <div class="guide">
+    <div class="gh"><span class="gt">1 · Standzeit verlängern</span><span class="gtag">Flansche umkehren — kostet nichts</span></div>
+    <div class="gintro">Lässt der Geruchsschutz nach, tauschst du die beiden Flansche. Die Luft strömt dann andersherum durch den Filter — die noch frische Kohle kommt zum Einsatz und <b>die ganze Kohle wird genutzt</b>.</div>
+    <div class="gsteps">
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 96 78">
+          <rect x="24" y="36" width="48" height="26" rx="3.5"/>
+          <clipPath id="rfDE1"><rect x="26" y="38" width="44" height="22" rx="3"/></clipPath><g class="mesh" clip-path="url(#rfDE1)"><path d="M13 38 l14 22 M21 38 l14 22 M29 38 l14 22 M37 38 l14 22 M45 38 l14 22 M53 38 l14 22 M61 38 l14 22 M69 38 l14 22 M26 38 l-14 22 M34 38 l-14 22 M42 38 l-14 22 M50 38 l-14 22 M58 38 l-14 22 M66 38 l-14 22 M74 38 l-14 22 M82 38 l-14 22"/></g>
+          <rect x="17" y="33" width="7.5" height="32" rx="2"/><rect x="9" y="42" width="8" height="14" rx="1.5"/>
+          <rect x="71.5" y="33" width="7.5" height="32" rx="2"/><path class="thin" d="M73.2 33a2.6 2.6 0 0 1 4 0"/>
+          <path d="M6 6.5 8.8 9.6" style="stroke-width:4.6"/><path d="M10.6 11.6 19.8 32.4"/>
+          <g class="thin"><circle cx="20.7" cy="37.4" r="2.1"/><path d="M19.5 38.6 21.9 36.2"/></g>
+          <g class="thin"><path d="M81.2 25a6.5 6.5 0 0 0-11.4-2.6"/><path d="M69.8 18.6l-1 4.2 4.1-.4"/></g>
+          <path class="thin" d="M7 71h82"/>
+        </svg></div>
+        <div class="gn">SCHRITT 1</div><div class="gl">Lösen</div>
+        <div class="gd">Filter flach hinlegen. Beide End-Flansche abschrauben.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 96 78">
+          <rect x="30" y="29" width="36" height="22" rx="3"/>
+          <clipPath id="rfDE2"><rect x="32" y="31" width="32" height="18" rx="3"/></clipPath><g class="mesh" clip-path="url(#rfDE2)"><path d="M21 31 l11 18 M29 31 l11 18 M37 31 l11 18 M45 31 l11 18 M53 31 l11 18 M61 31 l11 18 M32 31 l-11 18 M40 31 l-11 18 M48 31 l-11 18 M56 31 l-11 18 M64 31 l-11 18 M72 31 l-11 18"/></g>
+          <rect x="8" y="26" width="6.5" height="28" rx="2"/><rect x="1.5" y="34" width="6.5" height="12" rx="1.5"/>
+          <rect x="81.5" y="26" width="6.5" height="28" rx="2"/><path class="thin" d="M82.7 26a2.6 2.6 0 0 1 4 0"/>
+          <g class="thin">
+            <path d="M11 17C28 2 68 2 85 17"/><path d="M85 17l-.4-5.2-4.6 2.2"/>
+            <path d="M85 63C68 78 28 78 11 63"/><path d="M11 63l.4 5.2 4.6-2.2"/>
+          </g>
+        </svg></div>
+        <div class="gn">SCHRITT 2</div><div class="gl">Seiten tauschen</div>
+        <div class="gd">Beide Flansche über Kreuz auf die andere Seite setzen.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 96 78">
+          <rect x="24" y="36" width="48" height="26" rx="3.5"/>
+          <clipPath id="rfDE3"><rect x="26" y="38" width="44" height="22" rx="3"/></clipPath><g class="mesh" clip-path="url(#rfDE3)"><path d="M13 38 l14 22 M21 38 l14 22 M29 38 l14 22 M37 38 l14 22 M45 38 l14 22 M53 38 l14 22 M61 38 l14 22 M69 38 l14 22 M26 38 l-14 22 M34 38 l-14 22 M42 38 l-14 22 M50 38 l-14 22 M58 38 l-14 22 M66 38 l-14 22 M74 38 l-14 22 M82 38 l-14 22"/></g>
+          <rect x="17" y="33" width="7.5" height="32" rx="2"/><path class="thin" d="M18.7 33a2.6 2.6 0 0 1 4 0"/>
+          <rect x="71.5" y="33" width="7.5" height="32" rx="2"/><rect x="79" y="42" width="8" height="14" rx="1.5"/>
+          <path d="M6 6.5 8.8 9.6" style="stroke-width:4.6"/><path d="M10.6 11.6 19.8 32.4"/>
+          <g class="thin"><circle cx="20.7" cy="37.4" r="2.1"/><path d="M19.5 38.6 21.9 36.2"/></g>
+          <g class="thin"><path d="M64 25a6.5 6.5 0 0 1 11.4-2.6"/><path d="M75.4 18.6l1 4.2-4.1-.4"/></g>
+          <path class="thin" d="M7 71h82"/>
+        </svg></div>
+        <div class="gn">SCHRITT 3</div><div class="gl">Festdrehen</div>
+        <div class="gd">Fest zudrehen. Stopfen prüfen, damit keine Kohle rausfällt.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide">
+    <div class="gh"><span class="gt">2 · Kohle nachfüllen</span><span class="gtag">wenn beide Seiten verbraucht sind</span></div>
+    <div class="gintro">Ist die Kohle nach 1–2 Grow Cycles durch, wechselst du nur die Kohle — nicht den ganzen Filter. Das spart Geld und Müll.</div>
+    <div class="gsteps">
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 92 100">
+          <ellipse cx="46" cy="38" rx="18" ry="5.5"/><path d="M28 38v46M64 38v46"/><path d="M28 84a18 5.5 0 0 0 36 0"/>
+          <g class="mesh"><path d="M36 40v43M43 40v45M50 40v45M57 40v43"/></g>
+          <path class="thin" d="M26 26q20-7 40 0" stroke-dasharray="4 3"/><path class="thin" d="M26 26v-3M66 26v-3" stroke-dasharray="4 3"/>
+          <path class="thin" d="M46 18v-12"/><path class="thin" d="M40 12l6-6 6 6"/>
+        </svg></div>
+        <div class="gn">SCHRITT 1</div><div class="gl">Vorfilter ab</div>
+        <div class="gd">Prefilter-Vlies abnehmen und einen Flansch aufschrauben.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 92 100">
+          <ellipse cx="46" cy="48" rx="18" ry="5.5"/><path d="M28 48v38M64 48v38"/><path d="M28 86a18 5.5 0 0 0 36 0"/>
+          <g class="mesh"><path d="M36 50v35M43 50v37M50 50v37M57 50v35"/></g>
+          <path d="M28 8h36l-12 17v9h-12v-9z"/>
+          <circle class="dot" cx="46" cy="16" r="1.7"/><circle class="dot" cx="42" cy="23" r="1.7"/><circle class="dot" cx="50" cy="30" r="1.7"/><circle class="dot" cx="46" cy="40" r="1.7"/>
+        </svg></div>
+        <div class="gn">SCHRITT 2</div><div class="gl">Kohle einfüllen</div>
+        <div class="gd">Mit Trichter (nicht enthalten) frische Aktivkohle einfüllen, fest packen.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 92 100">
+          <path d="M28 22v-6M64 22v-6"/><ellipse cx="46" cy="16" rx="18" ry="5.5"/><ellipse cx="46" cy="22" rx="18" ry="5.5"/>
+          <path d="M28 22v58M64 22v58"/><path d="M28 80a18 5.5 0 0 0 36 0"/>
+          <g class="mesh"><path d="M36 27v51M43 27v53M50 27v53M57 27v51"/></g>
+          <path class="thin" d="M67 11a21 6 0 1 1-9-4"/><path class="thin" d="M58 6l0 6 6-1.5"/>
+        </svg></div>
+        <div class="gn">SCHRITT 3</div><div class="gl">Zuschrauben</div>
+        <div class="gd">Nicht über den Vorfilter füllen. Flansch wieder festschrauben.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc">
+    <div class="ruleL" style="margin-bottom:9px;"></div>
+    <div class="svcgrid">
+      <div>
+        <div class="fsec">Service &amp; Garantie</div>
+        <div class="serv"><b>1 Jahr Herstellergarantie</b> ab Lieferdatum. Die gesetzliche Gewährleistung von 2 Jahren bleibt unberührt. Kaufbeleg aufbewahren.<br>Kontakt: info@growexpert-shop.de</div>
+      </div>
+      <div>
+        <div class="fsec">Entsorgung &amp; Pflichtangaben</div>
+        <div class="crow"><span class="cebadge"><svg viewBox="0 0 44 26"><g fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round"><path d="M20.07 5.93 A10 10 0 1 0 20.07 20.07"/><path d="M41.07 5.93 A10 10 0 1 0 41.07 20.07"/><path d="M24 13 H41"/></g></svg></span><span class="pill">♻ NICHT ÜBER HAUSMÜLL</span></div>
+        <div class="cnote">Kohle kompostierbar · Metallgehäuse über Wertstoff · Made in China</div>
+        <div class="irow">Importeur: Need That · Bebelstraße 42 · 67549 Worms · Germany · WEEE-Reg.-Nr. DE27607569</div>
+      </div>
+    </div>
+  </div>
+  <div class="pgn">GROW EXPERT · GE-CF-01 · Seite 2 / 4</div>
+</div>
+
+<!-- ═══════════ PAGE 3 (EN) ═══════════ -->
+<div class="page">
+  <div class="brandrow"><div class="brand">GROW&nbsp;&nbsp;EXPERT</div><div class="doclbl">OPERATING<br>MANUAL<br>EN</div></div>
+  <div class="h1">CARBON FILTER Ø100mm</div>
+  <div class="sub">Professional Series · Refillable · Reversible flanges</div>
+  <div class="rule"></div>
+
+  <div class="sec"><span class="dm"></span><span class="t">In the box</span><span class="ln"></span></div>
+  <div class="two">
+    <div class="li"><svg class="ic"><use href="#i-filter"/></svg><div><b>1× Carbon filter</b></div></div>
+    <div class="li"><svg class="ic"><use href="#i-bag"/></svg><div>1× Pre-filter sleeve (cotton)</div></div>
+    <div class="li"><svg class="ic"><use href="#i-rope"/></svg><div>1× Hanging rope set with clips</div></div>
+  </div>
+  <div class="note">Refill carbon (GE-CAR-4) and a funnel are not included — please prepare them beforehand. Ducting and clamps not included.</div>
+
+  <div class="two" style="margin-top:8px;grid-template-columns:1.05fr .95fr;gap:0 18px;align-items:start;">
+    <div>
+      <div class="sec"><span class="dm"></span><span class="t">Specifications</span><span class="ln"></span></div>
+      <table class="spec">
+        <tr><td class="k">Model</td><td class="v">GE-CF-01</td></tr>
+        <tr><td class="k">Connection</td><td class="v">Ø100 mm · 4″</td></tr>
+        <tr><td class="k">Filter size</td><td class="v">Ø100 × 305 mm</td></tr>
+        <tr><td class="k">Activated carbon</td><td class="v">≈ 1.3–1.4 kg</td></tr>
+        <tr><td class="k">Airflow</td><td class="v">357 m³/h · 210 CFM</td></tr>
+        <tr><td class="k">Odour removal</td><td class="v">up to 98 %</td></tr>
+        <tr><td class="k">Carbon life</td><td class="v">1–2 grow cycles</td></tr>
+        <tr><td class="k">Material</td><td class="v">Powder-coated steel</td></tr>
+        <tr><td class="k">Flanges</td><td class="v">Alu · reversible</td></tr>
+        <tr><td class="k">Compatible</td><td class="v">GE-DUF-01</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="sec"><span class="dm"></span><span class="t">Before use</span><span class="ln"></span></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Pull the cotton pre-filter over the filter to protect the carbon from dust.</div></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Suspend securely with the rope set and hooks, or mount it on the fan.</div></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Mind the airflow direction (see below).</div></div>
+      <div class="li"><svg class="ic" style="font-size:11px"><use href="#i-check"/></svg><div>Use dry only — never let the carbon get wet.</div></div>
+    </div>
+  </div>
+
+  <div class="sec"><span class="dm"></span><span class="t">Fitting &amp; airflow direction</span><span class="ln"></span></div>
+  <div class="flow">
+    <div class="fn"><svg class="ic"><use href="#i-wind"/></svg><div class="l">Room air</div></div>
+    <svg class="ic far"><use href="#i-arrow"/></svg>
+    <div class="fn"><svg class="ic"><use href="#i-filter"/></svg><div class="l">Carbon filter</div></div>
+    <svg class="ic far"><use href="#i-arrow"/></svg>
+    <div class="fn"><svg class="ic"><use href="#i-fan"/></svg><div class="l">Fan</div></div>
+    <svg class="ic far"><use href="#i-arrow"/></svg>
+    <div class="fn"><svg class="ic"><use href="#i-wind"/></svg><div class="l">Exhaust</div></div>
+  </div>
+  <div class="note">Air is drawn through the carbon filter and pushed outside by the inline fan — odours are captured and the tent stays under negative pressure.</div>
+
+  <div class="sec"><span class="dm"></span><span class="t">Care &amp; safety</span><span class="ln"></span></div>
+  <div class="safe">
+    <div class="sf"><span class="num">1.</span><div>Keep and store dry. Do not wash the carbon or let it get wet.</div></div>
+    <div class="sf"><span class="num">2.</span><div><span class="cau">Exhaust use only</span> for grow tents/indoor rooms. Do not filter aggressive chemicals.</div></div>
+    <div class="sf"><span class="num">3.</span><div>Check the pre-filter sleeve regularly and replace when soiled.</div></div>
+    <div class="sf"><span class="num">4.</span><div>Suspend securely — check rope, clips and hooks are firmly seated.</div></div>
+    <div class="sf"><span class="num">5.</span><div>Do not drop; a deformed housing reduces performance.</div></div>
+    <div class="sf"><span class="num">6.</span><div>Keep away from ignition sources and open flame. Store cool and dry.</div></div>
+  </div>
+  <div class="pgn">GROW EXPERT · GE-CF-01 · Page 3 / 4</div>
+</div>
+
+<!-- ═══════════ PAGE 4 (EN) — GUIDES ═══════════ -->
+<div class="page">
+  <div class="brand">GROW&nbsp;&nbsp;EXPERT · CARBON FILTER Ø100mm</div>
+  <div class="ruleL" style="margin:7px 0 0;"></div>
+
+  <div class="guide">
+    <div class="gh"><span class="gt">1 · Extend the life</span><span class="gtag">reverse the flanges — costs nothing</span></div>
+    <div class="gintro">When odour control drops, reverse the airflow direction: the still-fresh carbon comes into the stream and the <b>entire carbon bed</b> is used.</div>
+    <div class="gsteps">
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 96 78">
+          <rect x="24" y="36" width="48" height="26" rx="3.5"/>
+          <clipPath id="rfEN1"><rect x="26" y="38" width="44" height="22" rx="3"/></clipPath><g class="mesh" clip-path="url(#rfEN1)"><path d="M13 38 l14 22 M21 38 l14 22 M29 38 l14 22 M37 38 l14 22 M45 38 l14 22 M53 38 l14 22 M61 38 l14 22 M69 38 l14 22 M26 38 l-14 22 M34 38 l-14 22 M42 38 l-14 22 M50 38 l-14 22 M58 38 l-14 22 M66 38 l-14 22 M74 38 l-14 22 M82 38 l-14 22"/></g>
+          <rect x="17" y="33" width="7.5" height="32" rx="2"/><rect x="9" y="42" width="8" height="14" rx="1.5"/>
+          <rect x="71.5" y="33" width="7.5" height="32" rx="2"/><path class="thin" d="M73.2 33a2.6 2.6 0 0 1 4 0"/>
+          <path d="M6 6.5 8.8 9.6" style="stroke-width:4.6"/><path d="M10.6 11.6 19.8 32.4"/>
+          <g class="thin"><circle cx="20.7" cy="37.4" r="2.1"/><path d="M19.5 38.6 21.9 36.2"/></g>
+          <g class="thin"><path d="M81.2 25a6.5 6.5 0 0 0-11.4-2.6"/><path d="M69.8 18.6l-1 4.2 4.1-.4"/></g>
+          <path class="thin" d="M7 71h82"/>
+        </svg></div>
+        <div class="gn">STEP 1</div><div class="gl">Unscrew</div>
+        <div class="gd">Lay the filter flat. Unscrew both end flanges.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 96 78">
+          <rect x="30" y="29" width="36" height="22" rx="3"/>
+          <clipPath id="rfEN2"><rect x="32" y="31" width="32" height="18" rx="3"/></clipPath><g class="mesh" clip-path="url(#rfEN2)"><path d="M21 31 l11 18 M29 31 l11 18 M37 31 l11 18 M45 31 l11 18 M53 31 l11 18 M61 31 l11 18 M32 31 l-11 18 M40 31 l-11 18 M48 31 l-11 18 M56 31 l-11 18 M64 31 l-11 18 M72 31 l-11 18"/></g>
+          <rect x="8" y="26" width="6.5" height="28" rx="2"/><rect x="1.5" y="34" width="6.5" height="12" rx="1.5"/>
+          <rect x="81.5" y="26" width="6.5" height="28" rx="2"/><path class="thin" d="M82.7 26a2.6 2.6 0 0 1 4 0"/>
+          <g class="thin">
+            <path d="M11 17C28 2 68 2 85 17"/><path d="M85 17l-.4-5.2-4.6 2.2"/>
+            <path d="M85 63C68 78 28 78 11 63"/><path d="M11 63l.4 5.2 4.6-2.2"/>
+          </g>
+        </svg></div>
+        <div class="gn">STEP 2</div><div class="gl">Swap sides</div>
+        <div class="gd">Move both flanges to the opposite end, crosswise.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 96 78">
+          <rect x="24" y="36" width="48" height="26" rx="3.5"/>
+          <clipPath id="rfEN3"><rect x="26" y="38" width="44" height="22" rx="3"/></clipPath><g class="mesh" clip-path="url(#rfEN3)"><path d="M13 38 l14 22 M21 38 l14 22 M29 38 l14 22 M37 38 l14 22 M45 38 l14 22 M53 38 l14 22 M61 38 l14 22 M69 38 l14 22 M26 38 l-14 22 M34 38 l-14 22 M42 38 l-14 22 M50 38 l-14 22 M58 38 l-14 22 M66 38 l-14 22 M74 38 l-14 22 M82 38 l-14 22"/></g>
+          <rect x="17" y="33" width="7.5" height="32" rx="2"/><path class="thin" d="M18.7 33a2.6 2.6 0 0 1 4 0"/>
+          <rect x="71.5" y="33" width="7.5" height="32" rx="2"/><rect x="79" y="42" width="8" height="14" rx="1.5"/>
+          <path d="M6 6.5 8.8 9.6" style="stroke-width:4.6"/><path d="M10.6 11.6 19.8 32.4"/>
+          <g class="thin"><circle cx="20.7" cy="37.4" r="2.1"/><path d="M19.5 38.6 21.9 36.2"/></g>
+          <g class="thin"><path d="M64 25a6.5 6.5 0 0 1 11.4-2.6"/><path d="M75.4 18.6l1 4.2-4.1-.4"/></g>
+          <path class="thin" d="M7 71h82"/>
+        </svg></div>
+        <div class="gn">STEP 3</div><div class="gl">Tighten</div>
+        <div class="gd">Tighten firmly. Check the stopper so no carbon spills out.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide">
+    <div class="gh"><span class="gt">2 · Refill the carbon</span><span class="gtag">when both sides are spent</span></div>
+    <div class="gintro">After 1–2 grow cycles you replace only the carbon, not the whole filter — saving money and waste.</div>
+    <div class="gsteps">
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 92 100">
+          <ellipse cx="46" cy="38" rx="18" ry="5.5"/><path d="M28 38v46M64 38v46"/><path d="M28 84a18 5.5 0 0 0 36 0"/>
+          <g class="mesh"><path d="M36 40v43M43 40v45M50 40v45M57 40v43"/></g>
+          <path class="thin" d="M26 26q20-7 40 0" stroke-dasharray="4 3"/><path class="thin" d="M26 26v-3M66 26v-3" stroke-dasharray="4 3"/>
+          <path class="thin" d="M46 18v-12"/><path class="thin" d="M40 12l6-6 6 6"/>
+        </svg></div>
+        <div class="gn">STEP 1</div><div class="gl">Remove sleeve</div>
+        <div class="gd">Take off the cotton pre-filter and unscrew one flange.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 92 100">
+          <ellipse cx="46" cy="48" rx="18" ry="5.5"/><path d="M28 48v38M64 48v38"/><path d="M28 86a18 5.5 0 0 0 36 0"/>
+          <g class="mesh"><path d="M36 50v35M43 50v37M50 50v37M57 50v35"/></g>
+          <path d="M28 8h36l-12 17v9h-12v-9z"/>
+          <circle class="dot" cx="46" cy="16" r="1.7"/><circle class="dot" cx="42" cy="23" r="1.7"/><circle class="dot" cx="50" cy="30" r="1.7"/><circle class="dot" cx="46" cy="40" r="1.7"/>
+        </svg></div>
+        <div class="gn">STEP 2</div><div class="gl">Pour carbon</div>
+        <div class="gd">Fill through a funnel (not included), pack evenly and firmly.</div>
+      </div>
+      <svg class="ic garr"><use href="#i-arrow"/></svg>
+      <div class="gstep">
+        <div class="gill"><svg viewBox="0 0 92 100">
+          <path d="M28 22v-6M64 22v-6"/><ellipse cx="46" cy="16" rx="18" ry="5.5"/><ellipse cx="46" cy="22" rx="18" ry="5.5"/>
+          <path d="M28 22v58M64 22v58"/><path d="M28 80a18 5.5 0 0 0 36 0"/>
+          <g class="mesh"><path d="M36 27v51M43 27v53M50 27v53M57 27v51"/></g>
+          <path class="thin" d="M67 11a21 6 0 1 1-9-4"/><path class="thin" d="M58 6l0 6 6-1.5"/>
+        </svg></div>
+        <div class="gn">STEP 3</div><div class="gl">Screw shut</div>
+        <div class="gd">Do not fill past the pre-filter. Screw the flange back on.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="svc">
+    <div class="ruleL" style="margin-bottom:9px;"></div>
+    <div class="svcgrid">
+      <div>
+        <div class="fsec">Service &amp; Warranty</div>
+        <div class="serv"><b>1-year manufacturer warranty</b> from delivery. Statutory warranty rights remain unaffected. Please keep your receipt.<br>Contact: info@growexpert-shop.de</div>
+      </div>
+      <div>
+        <div class="fsec">Disposal &amp; mandatory info</div>
+        <div class="crow"><span class="cebadge"><svg viewBox="0 0 44 26"><g fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round"><path d="M20.07 5.93 A10 10 0 1 0 20.07 20.07"/><path d="M41.07 5.93 A10 10 0 1 0 41.07 20.07"/><path d="M24 13 H41"/></g></svg></span><span class="pill">♻ NOT HOUSEHOLD WASTE</span></div>
+        <div class="cnote">Carbon compostable · metal housing via recycling · Made in China</div>
+        <div class="irow">Importer: Need That · Bebelstraße 42 · 67549 Worms · Germany · WEEE reg. no. DE27607569</div>
+      </div>
+    </div>
+  </div>
+  <div class="pgn">GROW EXPERT · GE-CF-01 · Page 4 / 4</div>
+</div>
+
+</body>
+</html>
